@@ -1,0 +1,20 @@
+{
+    "name": "website/mywebsite",
+    "description": "My first project with composer!",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "MyWebsite\\App\\Classes\\": "MyWebsite/App/Classes/",
+            "MyWebsite\\App\\Interfaces\\": "MyWebsite/App/Interfaces/",
+            "MyWebsite\\App\\Traits\\": "MyWebsite/App/Traits/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Teslenko Illia",
+            "email": "teslenko.illia24@gmail.com"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {}
+}
